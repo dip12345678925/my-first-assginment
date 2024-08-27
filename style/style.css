@@ -1,0 +1,122 @@
+.Group{
+/* position: absolute; */
+width: 200.03px;
+height: 228.9px;
+left: 245.48%;
+right: -217.49%;
+top: 10px;
+bottom: 4.63%;
+transform: rotate3d();
+}
+.first{
+    max-width: 2000px;
+}
+.title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 70px;
+font-weight: 500;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+    /* "In the near future, I hope to become a Developer." */
+position: static;
+width: 1198px;
+height: 136px;
+/* Auto layout */
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 24px 15px 24px 15px; */
+}
+.Frame2{
+    /* Frame 4 */
+/* Hero-bg */
+position: absolute;
+width: 10000px;
+height: 500px;
+left: auto;
+right: auto;
+top: 10px;
+bottom: 4462px;
+}
+.description{
+    font-size: 20px;
+position: absolute;
+width: 1000px;
+height: 646px;
+left: 0;
+right: 0;
+top: 350px;
+bottom: 4462px;
+margin: 10px 15px 10px 15px;
+}
+.text{
+    font-size: 12px;
+    width: auto;
+    /* height: auto; */
+}
+.btn{
+    /* Frame 2 */
+position: static;
+width: 100px;
+height: 30px;
+top: 100px;
+/* Auto layout */
+display: flex;
+flex-direction:row;
+
+justify-content: center;
+align-items: center;
+gap: 0;
+padding: 15px 20px 15px 20px;
+/* bottom: 200px; */
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 30px 500px 30px 500px; */
+margin: 70px auto;
+/* bottom: 200px; */
+    border-radius: 10px;
+background: rgb(20, 31, 58);
+}
+.imagebg{
+    /* Hero-bg */
+position: absolute;
+width: 1640px;
+height: 800px;
+left: 0;
+right: 0;
+top: 137px;
+bottom: 4462px;
+}
+.Frame{
+    /* Frame 4 */
+position: absolute;
+width: 1008px;
+height: 120px;
+/* left: auto; */
+/* right: auto; */
+margin:90px 200px 90px 200px ;
+top: 100px;
+bottom: 300px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+text-align: center;
+}
